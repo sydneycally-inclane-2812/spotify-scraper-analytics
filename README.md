@@ -5,10 +5,22 @@ Since Spotify only allows the last 50 songs to be extracted from its API, this s
 This project will not go to production for the foreseeable future - major focus is on data extraction and analysis.
 
 # Project Structure:
-|___ README.md
-|___ .gitignore
-|___ auth_test: code for testing the Spotipy library for navigating the OAuth process to authenticate with Spotify
-|   |___ test_auth.ipynb: original testing notebook
-|   |___ working_auth.py: polished single Python script for the authentication process
+
+```
+spotify-history-grabber/
+├── README.md
+├── .gitignore
+└── auth_test/
+    ├── test_auth.ipynb
+    └── working_auth.py
+```
+
+### Directory Details
+
+- `README.md` - Main documentation file
+- `.gitignore` - Specifies which files Git should ignore
+- `auth_test/` - Authentication testing directory
+  - `test_auth.ipynb` - Initial Spotipy authentication testing notebook
+  - `working_auth.py` - Refined authentication implementation script
 
     

@@ -2,4 +2,5 @@
 /.venv/
 /site_test/.env
 /auth_test/.env
+/auth_test/.cache
 /.cache
